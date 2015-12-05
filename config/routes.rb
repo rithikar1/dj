@@ -1,6 +1,8 @@
 Dj::Application.routes.draw do
   
-  resources :posts
+  resources :posts do 
+    # post "ab", :as => "freel"
+  end
 
 
    root :to => 'welcome#index'
@@ -10,8 +12,8 @@ Dj::Application.routes.draw do
   ActiveAdmin.routes(self)
 
   get "welcome/index"
- get "posts/ab"
- post "posts/ab"
+  get "posts/ab"
+  post "posts/ab"
 
   post "freelist" => "posts#ab", :as => "freelist" 
 

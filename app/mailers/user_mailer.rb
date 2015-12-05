@@ -11,6 +11,6 @@ class UserMailer < ActionMailer::Base
     @s = s
     @m = m 
     @greeting = "Hi"
-     mail to: "kunalwaghray52@gmail.com"
+     mail to: "rorrails4@gmail.com"
   end
 end

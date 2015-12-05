@@ -40,8 +40,8 @@ Dj::Application.configure do
     :address => "smtp.gmail.com",
     :port => 587,
     :domain => 'pdphotgraphy.com.au',
-    :user_name => 'rorrails3@gmail.com',
-    :password => 'runserver',
+    :user_name => 'rorrails4@gmail.com',
+    :password => 'Rorrails452k',
     :authentication => 'plain',
     :enable_starttls_auto => true
   }

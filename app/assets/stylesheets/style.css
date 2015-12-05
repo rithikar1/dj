@@ -240,7 +240,7 @@ background: #e6e6e6;
 	margin-top:-15px;
 	left:50%;
 	margin-left:-15px;
-	background: url('../img/plus.png') no-repeat;
+	/*background: url('../img/plus.png') no-repeat;*/
 }
 
 /* Gallery #2 ~ Macro 
@@ -248,7 +248,7 @@ background: #e6e6e6;
 .gal2-thumb-container{
 	height: 100%;
 	width:130px;
-	background: #1c1d22 url('../img/gal2-thumb-bg.png') repeat;
+	/*background: #1c1d22 url('../img/gal2-thumb-bg.png') repeat;*/
 	float: left;
 	padding: 20px 0;
 	position: relative;
